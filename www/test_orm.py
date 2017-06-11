@@ -34,10 +34,6 @@ async def insert():
 #     print('update',r)
 #     await orm.destory_pool()
 
-<<<<<<< HEAD
-=======
-
->>>>>>> a47a099... Web目录，存放.py文件
 # async def find():
 #     await orm.create_pool(loop, user='www-data', password='www-data', db='awesome')
 #     all = await User.findAll()

@@ -4,10 +4,6 @@
 '''
 Models for user,blog,comment
 '''
-<<<<<<< HEAD
-=======
-
->>>>>>> a47a099... Web目录，存放.py文件
 __author__ = 'Lw'
 
 import time

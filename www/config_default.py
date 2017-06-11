@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 '''
-Configuration
+Default configurations.
 '''
 
-__author__ = 'Lw'
+__author__ = 'Michael Liao'
 
 configs = {
     'debug': True,
-    'db' = {
+    'db': {
         'host': '127.0.0.1',
         'port': 3306,
         'user': 'www-data',

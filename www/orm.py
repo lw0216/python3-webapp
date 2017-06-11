@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-<<<<<<< HEAD
+ 
 __autor__ = 'Lw'
-
-=======
->>>>>>> a47a099... Web目录，存放.py文件
+ 
 import asyncio, logging
 import aiomysql
 

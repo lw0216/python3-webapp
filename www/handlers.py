@@ -19,7 +19,6 @@ from models import User, Comment, Blog, next_id
 
 
 @get('/')
-<<<<<<< HEAD
 def index(request):
     summary = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     blogs = [
@@ -33,11 +32,4 @@ def index(request):
     return {
         '__template__': 'blogs.html',
         'blogs': blogs
-=======
-async def index(request):
-    users = await User.findAll()
-    return {
-        '__template__': 'test.html',
-        'users': users
->>>>>>> a47a099... Web目录，存放.py文件
     }
